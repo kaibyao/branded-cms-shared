@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+<g:content_block type="content_block_programmatic" id="578608abc0a8016b009452ce010df0a7"/>
+<g:content_block type="content_block_iframe" id="c82e8db0b134310062c560307f6433ba"/>
+
+<div class="kb-list-container">
+	<g:for_each_record file="${current}" max="${jvar_max_entries}">
+
+		<j:set var="jvar_href" value="knowledge.do?sysparm_document_key=kb_knowledge,${current.sys_id}" />
+
+		<div class="kb-list-article row">
+			<j:if test="${current.sys_view_count.getDisplayValue() == '0'}">
+				<div class="kb-list-article-views not-viewed col-sm-1 hidden-xs">
+					<div class="kb-list-article-views-content">
+						<div class="kb-list-article-views-value">${current.sys_view_count}</div>
+						<div class="kb-list-article-views-text">${gs.getMessage('views')}</div>
+					</div>
+				</div>
+			</j:if>
+			<j:if test="${current.sys_view_count.getDisplayValue() != '0'}">
+				<div class="kb-list-article-views viewed col-sm-1 hidden-xs">
+					<div class="kb-list-article-views-content">
+						<div class="kb-list-article-views-value">${current.sys_view_count}</div>
+						<div class="kb-list-article-views-text">${gs.getMessage('views')}</div>
+					</div>
+				</div>
+			</j:if>
+
+			<j:if test="${current.use_count.getDisplayValue() == '0'}">
+				<div class="kb-list-article-votes not-useful col-sm-1 hidden-xs">
+					<div class="kb-list-article-votes-content">
+						<div class="kb-list-article-votes-value">${current.use_count || 0}</div>
+						<div class="kb-list-article-votes-text">${gs.getMessage('votes')}</div>
+					</div>
+				</div>
+			</j:if>
+			<j:if test="${current.use_count.getDisplayValue() != '0'}">
+				<div class="kb-list-article-votes useful col-sm-1 hidden-xs">
+					<div class="kb-list-article-votes-content">
+						<div class="kb-list-article-votes-value">${current.use_count || 0}</div>
+						<div class="kb-list-article-votes-text">${gs.getMessage('votes')}</div>
+					</div>
+				</div>
+			</j:if>
+
+			<div class="kb-list-article-text col-xs-12 col-sm-9">
+				<h3 class="kb-list-article-short-description">
+					<a class="kb-list-article-short-description-link" href="${jvar_href}">${current.short_description.getDisplayValue()}</a>
+				</h3>
+				<div class="kb-list-article-description">
+					${current.description.getDisplayValue()}
+				</div>
+				<div class="kb-list-article-meta">
+					<span class="kb-list-article-department">
+						${current.u_department.getDisplayValue()}
+					</span> | <span class="kb-list-article-topic">
+						${current.topic.getDisplayValue()}
+					</span> | <span class="kb-list-article-author">
+						Posted by <span class="kb-list-article-author-name">
+							${current.author.getDisplayValue()}
+						</span>
+					</span> on <span class="kb-list-article-timestamp">
+						${current.published}
+					</span>
+				</div>
+			</div>
+		</div>
+
+	</g:for_each_record>
+</div>
+
+</j:jelly>

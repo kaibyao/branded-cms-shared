@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2015-03-13 10:38:41">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Branded CMS + HR CMS v2.0-RC1-Merged-1-Patch-3</name>
+<origin_sys_id/>
+<release_date/>
+<remote_sys_id>a67277059b3231003fe61c7606549844</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2015-03-13 10:38:40</sys_created_on>
+<sys_id>d8d53b459b3231003fe61c76065498c2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2015-03-13 10:38:40</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>content_css_3d19e9fe4f267100c163e321a310c7d3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="content_css"><content_css action="INSERT_OR_UPDATE"><name>Branded HR CMS ServiceNow Overrides</name><style>/* Overriding default CMS/Iframed styles */&#13;
+body { height: auto; margin: 0; }&#13;
+&#13;
+table, input, select, button, input.text, textarea, input.button {&#13;
+	font-size: inherit;&#13;
+	font-family: inherit;&#13;
+}&#13;
+&#13;
+/* Disabling Heisenberg */&#13;
+.modal-backdrop { z-index: 0; }&#13;
+&#13;
+@media (min-width: 550px) {&#13;
+	.container {&#13;
+		width: auto;&#13;
+	}&#13;
+}&#13;
+&#13;
+/* Iframed forms and lists */&#13;
+html[data-doctype=true] body[data-formName="ui_page_render"] { margin: 0; }&#13;
+html[data-doctype=true] div.section_header_content_no_scroll { overflow: visible; }&#13;
+html[data-doctype=true] .list_nav.list_nav_top { background: transparent; }&#13;
+.section_header_body_no_scroll { height: auto; max-height: none; }&#13;
+.section_header_content_no_scroll { position: static !important; max-height: none; }&#13;
+.section_header_div_no_scroll { position: static; }&#13;
+.list_nav.list_nav_top_border { position: static !important; border: 0 none; }&#13;
+.list_nav_spacer { margin-top: 0 !important; }&#13;
+tr.io_label td { background: transparent !important; }&#13;
+div.form_title { font-size: 14px; }&#13;
+.label { display: block; font-size: inherit; line-height: inherit; }&#13;
+.label label { margin-bottom: 0; }&#13;
+.vcr_controls {&#13;
+	display: inline-block;&#13;
+	vertical-align: middle;&#13;
+	padding: 0px 10px;&#13;
+	border-left: none;&#13;
+	border-right: none;&#13;
+}&#13;
+button[name=vcr_first], button[name=vcr_back], button[name=vcr_next], button[name=vcr_last] { margin-left: 0; margin-right: 0; }&#13;
+button[name=vcr_last] { margin-right: 0; width: 36px; }&#13;
+INPUT.list_row_number_input { width: 4em; line-height: 1em; }&#13;
+&#13;
+.breadcrumb { padding: 0; background: transparent; }&#13;
+&#13;
+/* Service Catalog */&#13;
+#category_description, #navigatordetailTop, #back_cell, .header_bar_title { display: none !important; }&#13;
+&#13;
+.sc_category_item .details_div td,&#13;
+.sc_category_item_hover .details_div td,&#13;
+.catalog_description &gt; table &gt; tbody &gt; tr &gt; td { padding: 10px; }&#13;
+.sc_category_item .details_div h3:first-child,&#13;
+.sc_category_item_hover .details_div h3:first-child,&#13;
+.catalog_description &gt; table &gt; tbody &gt; tr &gt; td &gt; h3:first-child { margin-top: 0; }&#13;
+html[data-doctype=true] tr.header { background: transparent; }&#13;
+html[data-doctype=true] div.sc_category_item, html[data-doctype=true] div.sc_category_item_hover { padding: 20px 0 !important; }&#13;
+html[data-doctype=true] .sc_category_item_left { padding-right: 20px; }&#13;
+&#13;
+/* Catalog Shopping Cart Container */&#13;
+#cartContent { padding: 10px; border: 1px solid #ccc; }&#13;
+.sc_cat_set_window, .sc_cart_window { margin: 0; border: 0 none; }&#13;
+.sc_cart_window { min-width: 175px; width: 100% !important; }&#13;
+&#13;
+/* Catalog Shopping Cart Top */&#13;
+#cartContent_header { padding-bottom: 10px; }&#13;
+#cart { padding: 0 10px; border: 0 none; }&#13;
+#adder { border: 1px solid #CCC; margin-bottom: 10px; padding: 10px; }&#13;
+#qty { margin-top: 10px; }&#13;
+&#13;
+/* Catalog Shopping Cart Bottom */&#13;
+.sc_cart_subtotal_row td { padding-top: 10px; }&#13;
+&#13;
+/* Live Feed */&#13;
+.live_feed.selfie-lite { background: transparent !important; }&#13;
+.live_feed.selfie-lite .topbar { background: #fff; }&#13;
+.live_feed.selfie-lite .panel { border: 1px solid #ddd; }&#13;
+&#13;
+/* Knowledge */&#13;
+.row.search-bar { background: transparent; border-bottom: 0 none; }&#13;
+.row.search-bar form { padding-left: 0; }&#13;
+.row.search-bar .buttons { padding-right: 0; }&#13;
+.row.homepage { margin: 60px -15px 0; }&#13;
+&#13;
+/* Knowledge Article */&#13;
+.snc-article-header-toolbar { display: none; }&#13;
+html[data-doctype=true] body[data-formName="ui_page_render"],&#13;
+body { padding: 0; }&#13;
+.kb-view-content-wrapper,&#13;
+.snc-article-header-author { margin: 0 !important; }&#13;
+.snc-article-footer-section-ratings,&#13;
+#kbCommentsAndLiveFeedDisplay { margin: 20px 0 !important; }&#13;
+&#13;
+/* Bootstrap Buttons */&#13;
+.btn-default:hover, .btn-destructive-subdued:hover, .btn-success-subdued:hover, .nav-segmented &gt; li:hover, .btn-default.hover, .hover.btn-destructive-subdued, .hover.btn-success-subdued, .nav-segmented &gt; li.hover { box-shadow: none; }&#13;
+&#13;
+/* Edit Page */&#13;
+#render_layout_preview .branded-2col-8-4 .main-container #dropzone10 { width: 66%; }&#13;
+#render_layout_preview .branded-2col-8-4 .main-container #dropzone15 { width: 33%; float: right; }&#13;
+</style><sys_class_name>content_css</sys_class_name><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-06 00:37:29</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>3d19e9fe4f267100c163e321a310c7d3</sys_id><sys_mod_count>12</sys_mod_count><sys_name>Branded HR CMS ServiceNow Overrides</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>content_css_3d19e9fe4f267100c163e321a310c7d3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-03-13 10:28:16</sys_updated_on><type>local</type><url/></content_css></record_update>]]></payload>
+<remote_update_set display_value="Branded CMS + HR CMS v2.0-RC1-Merged-1-Patch-3">d8d53b459b3231003fe61c76065498c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2015-03-13 10:38:40</sys_created_on>
+<sys_id>1cd53b459b3231003fe61c76065498c2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2015-03-13 10:38:40</sys_updated_on>
+<table/>
+<target_name>Branded HR CMS ServiceNow Overrides</target_name>
+<type>Style Sheet</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>content_css_d7fafb024da0710062c55dc1f2a64ee3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="content_css"><content_css action="INSERT_OR_UPDATE"><name>Branded CMS ServiceNow Overrides</name><style>/* Overriding default CMS/Iframed styles */&#13;
+body { height: auto; margin: 0; }&#13;
+&#13;
+table, input, select, button, input.text, textarea, input.button {&#13;
+	font-size: inherit;&#13;
+	font-family: inherit;&#13;
+}&#13;
+&#13;
+/* Disabling Heisenberg */&#13;
+.modal-backdrop { z-index: 0; }&#13;
+&#13;
+@media (min-width: 550px) {&#13;
+	.container {&#13;
+		width: auto;&#13;
+	}&#13;
+}&#13;
+&#13;
+/* Iframed forms and lists */&#13;
+html[data-doctype=true] body[data-formName="ui_page_render"] { margin: 0; }&#13;
+html[data-doctype=true] div.section_header_content_no_scroll { overflow: visible; }&#13;
+html[data-doctype=true] .list_nav.list_nav_top { background: transparent; }&#13;
+.section_header_body_no_scroll { height: auto; max-height: none; }&#13;
+.section_header_content_no_scroll { position: static !important; max-height: none; }&#13;
+.section_header_div_no_scroll { position: static; }&#13;
+tr.io_label td { background: transparent !important; }&#13;
+div.form_title { font-size: 14px; }&#13;
+.label { display: block; font-size: inherit; line-height: inherit; }&#13;
+.label label { margin-bottom: 0; }&#13;
+.list_nav.list_nav_top_border { position: static !important; border: 0 none; }&#13;
+.list_nav_spacer { margin-top: 0 !important; }&#13;
+&#13;
+.breadcrumb { padding: 0; background: transparent; }&#13;
+&#13;
+/* Service Catalog */&#13;
+#category_description, #navigatordetailTop, #back_cell, .header_bar_title { display: none !important; }&#13;
+&#13;
+.sc_category_item .details_div td,&#13;
+.sc_category_item_hover .details_div td,&#13;
+.catalog_description &gt; table &gt; tbody &gt; tr &gt; td { padding: 10px; }&#13;
+.sc_category_item .details_div h3:first-child,&#13;
+.sc_category_item_hover .details_div h3:first-child,&#13;
+.catalog_description &gt; table &gt; tbody &gt; tr &gt; td &gt; h3:first-child { margin-top: 0; }&#13;
+html[data-doctype=true] tr.header { background: transparent; }&#13;
+html[data-doctype=true] div.sc_category_item, html[data-doctype=true] div.sc_category_item_hover { padding: 20px 0 !important; }&#13;
+html[data-doctype=true] .sc_category_item_left { padding-right: 20px; }&#13;
+&#13;
+/* Catalog Shopping Cart Container */&#13;
+#cartContent { padding: 10px; border: 1px solid #ccc; }&#13;
+.sc_cat_set_window, .sc_cart_window { margin: 0; border: 0 none; }&#13;
+.sc_cart_window { min-width: 175px; width: 100% !important; }&#13;
+&#13;
+/* Catalog Shopping Cart Top */&#13;
+#cartContent_header { padding-bottom: 10px; }&#13;
+#cart { padding: 0 10px; border: 0 none; }&#13;
+#adder { border: 1px solid #CCC; margin-bottom: 10px; padding: 10px; }&#13;
+#qty { margin-top: 10px; }&#13;
+&#13;
+/* Catalog Shopping Cart Bottom */&#13;
+.sc_cart_subtotal_row td { padding-top: 10px; }&#13;
+&#13;
+/* Live Feed */&#13;
+.main-content .live_feed_column { padding: 0; }&#13;
+&#13;
+/* Knowledge */&#13;
+.row.search-bar { background: transparent; border-bottom: 0 none; }&#13;
+.row.search-bar form { padding-left: 0; }&#13;
+.row.search-bar .buttons { padding-right: 0; }&#13;
+.row.homepage { margin: 60px -15px 0; }&#13;
+.row.homepage .hpMainNav { display: none; }&#13;
+.snc-article-header-toolbar { display: none; }&#13;
+&#13;
+/* Bootstrap Buttons */&#13;
+.btn-default:hover, .btn-destructive-subdued:hover, .btn-success-subdued:hover, .nav-segmented &gt; li:hover, .btn-default.hover, .hover.btn-destructive-subdued, .hover.btn-success-subdued, .nav-segmented &gt; li.hover { box-shadow: none; }&#13;
+</style><sys_class_name>content_css</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2014-11-24 17:14:12</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>d7fafb024da0710062c55dc1f2a64ee3</sys_id><sys_mod_count>54</sys_mod_count><sys_name>Branded CMS ServiceNow Overrides</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>content_css_d7fafb024da0710062c55dc1f2a64ee3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-03-13 10:28:17</sys_updated_on><type>local</type><url/></content_css></record_update>]]></payload>
+<remote_update_set display_value="Branded CMS + HR CMS v2.0-RC1-Merged-1-Patch-3">d8d53b459b3231003fe61c76065498c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2015-03-13 10:38:40</sys_created_on>
+<sys_id>5cd53b459b3231003fe61c76065498c2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2015-03-13 10:38:40</sys_updated_on>
+<table/>
+<target_name>Branded CMS ServiceNow Overrides</target_name>
+<type>Style Sheet</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>content_page_61b5c6904ffe7100c163e321a310c77f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update node_type="content_page" unload_date="2015-03-13 10:25:55"><sys_portal action="delete_multiple" query="page=61b5c6904ffe7100c163e321a310c77f"><related_items_node><sys_portal action="INSERT_OR_UPDATE"><dropzone>dropzone0</dropzone><offset>0</offset><page display_value="">61b5c6904ffe7100c163e321a310c77f</page><summary/><sys_created_by>admin</sys_created_by><sys_created_on>2015-03-13 10:25:55</sys_created_on><sys_id>6de2f7059b3231003fe61c7606549844</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-03-13 10:25:55</sys_updated_on><related_items_node><sys_portal_preferences action="INSERT_OR_UPDATE"><name>renderer</name><portal_section display_value="Created 2015-03-13 03:25:55">6de2f7059b3231003fe61c7606549844</portal_section><sys_created_by>admin</sys_created_by><sys_created_on>2015-03-13 10:25:55</sys_created_on><sys_id>21e2f7059b3231003fe61c7606549845</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-03-13 10:25:55</sys_updated_on><value>com.glide.ui.portal.RenderDashboard</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>current_page</name><portal_section display_value="Created 2015-03-13 03:25:55">6de2f7059b3231003fe61c7606549844</portal_section><sys_created_by>admin</sys_created_by><sys_created_on>2015-03-13 10:25:55</sys_created_on><sys_id>25e2f7059b3231003fe61c7606549845</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-03-13 10:25:55</sys_updated_on><value>61b5c6904ffe7100c163e321a310c77f</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>title</name><portal_section display_value="Created 2015-03-13 03:25:55">6de2f7059b3231003fe61c7606549844</portal_section><sys_created_by>admin</sys_created_by><sys_created_on>2015-03-13 10:25:55</sys_created_on><sys_id>a1e2f7059b3231003fe61c7606549845</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-03-13 10:25:55</sys_updated_on><value>My Open Records</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>sys_id</name><portal_section display_value="Created 2015-03-13 03:25:55">6de2f7059b3231003fe61c7606549844</portal_section><sys_created_by>admin</sys_created_by><sys_created_on>2015-03-13 10:25:55</sys_created_on><sys_id>ade2f7059b3231003fe61c7606549844</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-03-13 10:25:55</sys_updated_on><value>928277059b3231003fe61c760654984a</value></sys_portal_preferences></related_items_node></sys_portal></related_items_node></sys_portal><content_page action="INSERT_OR_UPDATE"><content_site display_value="Branded CMS">ce5b99904de4310062c55dc1f2a64e73</content_site><content_theme/><description>Contains the content for the "My Requests" page.</description><frame_buster>false</frame_buster><layout display_value="CMS 1 Column Iframe">7c89450a0a0005c63cd4585ffbedc5d7</layout><model_id/><model_table/><name>Branded CMS - My Requests Content</name><order/><parent_page display_value="">277f607585346100dccdca6387b86ea7</parent_page><read_roles/><roles/><selectable>true</selectable><sys_class_name>content_page</sys_class_name><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-10 18:33:25</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>61b5c6904ffe7100c163e321a310c77f</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Branded CMS - My Requests Content</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>content_page_61b5c6904ffe7100c163e321a310c77f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-03-13 10:25:55</sys_updated_on><title/><url_suffix>myrequestscontent</url_suffix><user/><view/><workflow_state>published</workflow_state></content_page></record_update>]]></payload>
+<remote_update_set display_value="Branded CMS + HR CMS v2.0-RC1-Merged-1-Patch-3">d8d53b459b3231003fe61c76065498c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2015-03-13 10:38:40</sys_created_on>
+<sys_id>9cd53b459b3231003fe61c76065498c2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2015-03-13 10:38:40</sys_updated_on>
+<table/>
+<target_name>Branded CMS - My Requests Content</target_name>
+<type>Page</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_gauge_928277059b3231003fe61c760654984a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_gauge"><sys_gauge action="INSERT_OR_UPDATE"><active>true</active><aggregate>COUNT</aggregate><attributes/><fieldname/><group_field/><lower_limit/><name>My Open Records</name><order/><other_threshold>-2</other_threshold><parent/><query/><report display_value="My Open Records">3b03b9724f667100c163e321a310c744</report><roles/><stack_field/><sys_class_name>sys_gauge</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-03-13 10:24:20</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>928277059b3231003fe61c760654984a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Open Records</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_gauge_928277059b3231003fe61c760654984a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-03-13 10:24:20</sys_updated_on><tablename>sm_order</tablename><title>My Open Records</title><type>report</type><upper_limit/><url/><view/></sys_gauge></record_update>]]></payload>
+<remote_update_set display_value="Branded CMS + HR CMS v2.0-RC1-Merged-1-Patch-3">d8d53b459b3231003fe61c76065498c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2015-03-13 10:38:40</sys_created_on>
+<sys_id>dcd53b459b3231003fe61c76065498c2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2015-03-13 10:38:40</sys_updated_on>
+<table>sm_order</table>
+<target_name>My Open Records</target_name>
+<type>Gauge</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

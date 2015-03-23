@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+<h1 class="page-title">
+	${current_page.getTitle();}
+</h1>
+
+<div id="${jvar_name}" class="site page-${current_page.getURLSuffix();} branded-2col-8-4">
+	<div class="header-container">
+		<div class="container">
+			<div class="row">
+				<div id="dropzone0" dropzone="true" class="header-content col-xs-12" />
+			</div>
+		</div>
+	</div>
+
+	<div class="main-container">
+		<div class="container">
+			<div class="row">
+				<div id="dropzone15" dropzone="true" class="secondary-content col-xs-12 col-md-4 col-md-push-8"></div>
+				<div id="dropzone10" dropzone="true" class="main-content col-xs-12 col-md-8 col-md-pull-4"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer-container">
+		<div class="container">
+			<div class="row">
+				<div id="dropzone20" dropzone="true" class="footer-content col-xs-12" />
+			</div>
+		</div>
+	</div>
+</div>
+
+<g:call function="branded_cms_admin_nav" />
+<g:call function="branded_cms_scripts" />
+
+</j:jelly>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2014-12-05 21:59:13">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>IE Fixes / Miscellaneous fixes to v0.12.</description>
+<inserted/>
+<name>Branded CMS v0.13</name>
+<origin_sys_id/>
+<release_date/>
+<remote_sys_id>21d121f13774310048b462c2b3990e5a</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_created_by>kai.yao</sys_created_by>
+<sys_created_on>2014-12-05 21:59:13</sys_created_on>
+<sys_id>42c5e9f13774310048b462c2b3990ea3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>kai.yao</sys_updated_by>
+<sys_updated_on>2014-12-05 21:59:13</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value=""/>
+<category>customer</category>
+<comments/>
+<name>content_block_menu_afa37b559b30310018621c7606549883</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_menu"><content_block_menu action="INSERT_OR_UPDATE"><active>true</active><align_sections_with_tab>false</align_sections_with_tab><category>general</category><condition/><conditional>false</conditional><frame/><logged_on>false</logged_on><name>Branded CMS Global Chat Menu</name><sys_class_name>content_block_menu</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2014-12-04 19:02:26</sys_created_on><sys_id>afa37b559b30310018621c7606549883</sys_id><sys_mod_count>4</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2014-12-05 21:42:36</sys_updated_on><type>blocks</type></content_block_menu><sys_app_file action="INSERT_OR_UPDATE"><customer_update>true</customer_update><publish_override/><replace_on_upgrade>false</replace_on_upgrade><restore/><sys_app/><sys_code>!!4*1/</sys_code><sys_created_by>admin</sys_created_by><sys_created_on>2014-12-04 19:02:26</sys_created_on><sys_id>d0fd59b13774310048b462c2b3990e10</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Branded CMS Global Chat Menu</sys_name><sys_parent/><sys_path>!!4*1/</sys_path><sys_policy/><sys_source_deleted>false</sys_source_deleted><sys_source_id>afa37b559b30310018621c7606549883</sys_source_id><sys_source_table>content_block_menu</sys_source_table><sys_type/><sys_update_name>content_block_menu_afa37b559b30310018621c7606549883</sys_update_name><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2014-12-05 21:42:36</sys_updated_on></sys_app_file></record_update>]]></payload>
+<remote_update_set display_value="Branded CMS v0.13">42c5e9f13774310048b462c2b3990ea3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>kai.yao</sys_created_by>
+<sys_created_on>2014-12-05 21:59:13</sys_created_on>
+<sys_id>06c5e9f13774310048b462c2b3990ea3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>kai.yao</sys_updated_by>
+<sys_updated_on>2014-12-05 21:59:13</sys_updated_on>
+<table/>
+<target_name>Branded CMS Global Chat Menu</target_name>
+<type>Navigation Menu</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value=""/>
+<category>customer</category>
+<comments/>
+<name>menu_section_9007e60d4de8310062c55dc1f2a64e19</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="menu_section"><menu_section action="INSERT_OR_UPDATE"><active>true</active><category/><contains_menu display_value="Branded CMS Main Menu - HR Menu">aa82c0eb4de8710062c55dc1f2a64ed3</contains_menu><content_block_menu display_value="Branded CMS Main Menu">182e9ac94de8310062c55dc1f2a64e4c</content_block_menu><detail_page display_value="Branded CMS - HR Home">63605534b134310062c560307f64334b</detail_page><footer/><header/><iframe/><image/><image_right/><logged_on>false</logged_on><name>HR</name><omit_body>false</omit_body><order>400</order><roles/><second_level_text/><sys_class_name>menu_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2014-11-21 08:33:03</sys_created_on><sys_id>9007e60d4de8310062c55dc1f2a64e19</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2014-12-05 21:53:43</sys_updated_on><tag/><target>internal</target><type>content_page</type><url/></menu_section><sys_translated_text action="delete_multiple" query="documentkey=9007e60d4de8310062c55dc1f2a64e19"/><sys_translated_text action="delete_multiple" query="documentkey=9007e60d4de8310062c55dc1f2a64e19"/><sys_app_file action="INSERT_OR_UPDATE"><customer_update>true</customer_update><publish_override/><replace_on_upgrade>false</replace_on_upgrade><restore/><sys_app/><sys_code>!!4)G/</sys_code><sys_created_by>admin</sys_created_by><sys_created_on>2014-11-21 08:33:03</sys_created_on><sys_id>75dd19b13774310048b462c2b3990e27</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HR</sys_name><sys_parent/><sys_path>!!4)G/</sys_path><sys_policy/><sys_source_deleted>false</sys_source_deleted><sys_source_id>9007e60d4de8310062c55dc1f2a64e19</sys_source_id><sys_source_table>menu_section</sys_source_table><sys_type/><sys_update_name>menu_section_9007e60d4de8310062c55dc1f2a64e19</sys_update_name><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2014-12-05 21:53:43</sys_updated_on></sys_app_file></record_update>]]></payload>
+<remote_update_set display_value="Branded CMS v0.13">42c5e9f13774310048b462c2b3990ea3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>kai.yao</sys_created_by>
+<sys_created_on>2014-12-05 21:59:13</sys_created_on>
+<sys_id>46c5e9f13774310048b462c2b3990ea3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>kai.yao</sys_updated_by>
+<sys_updated_on>2014-12-05 21:59:13</sys_updated_on>
+<table/>
+<target_name>HR</target_name>
+<type>Menu Section</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value=""/>
+<category>customer</category>
+<comments/>
+<name>content_block_header_427de8414de8310062c55dc1f2a64e44</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_header"><content_block_header action="INSERT_OR_UPDATE"><active>true</active><background/><bg_color/><bg_image/><bottom_color/><bottom_menu display_value="Branded CMS Main Menu">182e9ac94de8310062c55dc1f2a64e4c</bottom_menu><category>general</category><chat_queue/><condition/><conditional>false</conditional><font_sizer>false</font_sizer><frame/><height/><logged_on>false</logged_on><login>true</login><logo/><name>Branded CMS Header</name><search>true</search><sys_class_name>content_block_header</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2014-11-20 23:42:35</sys_created_on><sys_id>427de8414de8310062c55dc1f2a64e44</sys_id><sys_mod_count>5</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2014-12-05 21:54:14</sys_updated_on><text>Your Company Self Service Portal</text><top_color/><top_menu display_value="Branded CMS Global Menu">1bb13b559b30310018621c760654980d</top_menu></content_block_header><sys_attachment action="INSERT_OR_UPDATE"><compressed>true</compressed><content_type>image/png</content_type><file_name>logo</file_name><size_bytes>7150</size_bytes><size_compressed>6729</size_compressed><sys_created_by>admin</sys_created_by><sys_created_on>2014-11-21 08:45:53</sys_created_on><sys_id>d4f9ea0d4de8310062c55dc1f2a64e29</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2014-11-21 08:45:53</sys_updated_on><table_name>ZZ_YYcontent_block_header</table_name><table_sys_id>427de8414de8310062c55dc1f2a64e44</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>H4sIAAAAAAAAAA==</data><length>16</length><position>0</position><sys_attachment display_value="logo" sys_id="d4f9ea0d4de8310062c55dc1f2a64e29">d4f9ea0d4de8310062c55dc1f2a64e29</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2014-11-21 08:45:53</sys_created_on><sys_id>18f9ea0d4de8310062c55dc1f2a64e29</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>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</data><length>3736</length><position>1</position><sys_attachment display_value="logo" sys_id="d4f9ea0d4de8310062c55dc1f2a64e29">d4f9ea0d4de8310062c55dc1f2a64e29</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2014-11-21 08:45:53</sys_created_on><sys_id>58f9ea0d4de8310062c55dc1f2a64e29</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>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</data><length>3736</length><position>2</position><sys_attachment display_value="logo" sys_id="d4f9ea0d4de8310062c55dc1f2a64e29">d4f9ea0d4de8310062c55dc1f2a64e29</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2014-11-21 08:45:53</sys_created_on><sys_id>98f9ea0d4de8310062c55dc1f2a64e29</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>HT2Ujhs+lUKSXjWaM6WzdZtx5gdx09tIXUtSHBVIF+HD4LTRGTjwPMvRc+fFfZ74iH9yVd81pT/XwfBx1/vx2MMT1psMiocMq6vrG5sL41khfW/QVWW0+8uRxesehfawDPkfPpkK+Rhg9LSH3hsM8MVAyUtrbQXJl+cb2SGOwUal1Jih2M8bBKe0vHQ0m9M9GrwVykR6p32cWFKPws083I2t2Wwwj96O5BESH5m9BQqB/fbpM3vjGfpsyNPPIHjjKfZsY7sF9okHS9C76ujlmV17mJnraHTuuTh29KH9yo1pYXFxm1SAX5HaWGldneYsqdXGfuzus7dQL8pZbSq0onQPbG2Z1wFUvCmYp5Nz7dg6/O0ukv2qgpTPNK4d64EJ2AqZeo/a2OCMpbfb9GAyoSwjIYezTNlHAJanxUitK+dJUvkclSJFlbkuQ6D4SSg9Umpu1UzEpmhwbMRXg0IsJmEP5BvBoFFucq5hvQoUH+zQzUnxKQRDLB7vrNJzQmT887xUZctXmaM/aG2ZtOTRi7Z6H4T0l37CfkSShMU1QJ/rYHIHzfz8OhD4QpYIy0e8U2sdr+5Btyr/Ay7CdT6ruHaqCpnIcGmmb3zyDUR/yFN1kUnK7DRmKtxeNHD0EsmTeBmsiFnuna/oombcnWTbeOnixDb4boxg0L9NnT4IFpa6v9xjfW1BZCT90ujDvmtNdpd9aLmKSNl303QZf9seI8Aaya4owVrOuByAlTXhkXAn5DjMOXrDkNxm/JTrsX/tG5cAs5JmFvajFeIL2WI86i8s9iIlBTK+H/usPT7siJWwJoGJkr7CHQiSP8cE5XjKreesGjGeJ+g3ftEWoDCYBq0KXLAgi5CEjC8s5KssZbfpvUzvWRtwPp1rPVj4do45CAv1l29mKu0g4yHTm/OULlaTrRq6oqHpz0n0/JUTtVxLkMlgS5NexAoWgQnHKCSjB/3OxBCZ4T159LU/tVeyTTmLfnGnyTjeUq48NQBNFNGhNdQvc9B0EfzhwfVNF3YLc81BZq1rvOzwL4vgppH1w3Kp5eHOWzya3jJeNtvJqJdVd9XOirENtvtFHH115q9+7RXYLUZJZA+JT22doDAamPjCeOEmDAppTNjYAlVbx/QKFRWrf1oQOqZHU+URjMytitziduMf5KUvo+DZJr9xo63amZqLSqw/HXy/yNwvu3Rpw4kqxrLyMm7JO2fTI3jSmHsXsaRPPABFJJS1XTTOKB4WhnuflWDqjlJsP7OEH9JNZFDEjYh+XYnSqYgl8jKSMuTR/2ddyAUetrpwPv6AkmcfX8l9JrB+anK1ERNrNXubgg47yRURWz/3+SMS2YkeelrWRbBD13xM3f0X3UevTAPHKPoSlN3rV0MT6339l+oGuskudkHwDZouIkfqMXxcS8AUmVbxL0UjebSOmTKLbAhQRKBwz09yiPQ5elV/pN8DZmLtp6M1fbPZ3z9R5KWVpSrfGAf+FxD2oXXuGwAA</data><length>1492</length><position>3</position><sys_attachment display_value="logo" sys_id="d4f9ea0d4de8310062c55dc1f2a64e29">d4f9ea0d4de8310062c55dc1f2a64e29</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2014-11-21 08:45:53</sys_created_on><sys_id>d8f9ea0d4de8310062c55dc1f2a64e29</sys_id></sys_attachment_doc><sys_app_file action="INSERT_OR_UPDATE"><customer_update>true</customer_update><publish_override/><replace_on_upgrade>false</replace_on_upgrade><restore/><sys_app/><sys_code>!!4&amp;O/</sys_code><sys_created_by>admin</sys_created_by><sys_created_on>2014-11-20 23:42:35</sys_created_on><sys_id>ffcdd5b13774310048b462c2b3990e50</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Branded CMS Header</sys_name><sys_parent/><sys_path>!!4&amp;O/</sys_path><sys_policy/><sys_source_deleted>false</sys_source_deleted><sys_source_id>427de8414de8310062c55dc1f2a64e44</sys_source_id><sys_source_table>content_block_header</sys_source_table><sys_type/><sys_update_name>content_block_header_427de8414de8310062c55dc1f2a64e44</sys_update_name><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2014-12-05 21:54:14</sys_updated_on></sys_app_file></record_update>]]></payload>
+<remote_update_set display_value="Branded CMS v0.13">42c5e9f13774310048b462c2b3990ea3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>kai.yao</sys_created_by>
+<sys_created_on>2014-12-05 21:59:13</sys_created_on>
+<sys_id>82c5e9f13774310048b462c2b3990ea3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>kai.yao</sys_updated_by>
+<sys_updated_on>2014-12-05 21:59:13</sys_updated_on>
+<table/>
+<target_name>Branded CMS Header</target_name>
+<type>Header</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value=""/>
+<category>customer</category>
+<comments/>
+<name>content_block_menu_1bb13b559b30310018621c760654980d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_menu"><content_block_menu action="INSERT_OR_UPDATE"><active>true</active><align_sections_with_tab>true</align_sections_with_tab><category>general</category><condition/><conditional>false</conditional><frame/><logged_on>false</logged_on><name>Branded CMS Global Menu</name><sys_class_name>content_block_menu</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2014-12-04 18:54:14</sys_created_on><sys_id>1bb13b559b30310018621c760654980d</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2014-12-05 21:42:48</sys_updated_on><type>super_menu</type></content_block_menu><sys_app_file action="INSERT_OR_UPDATE"><customer_update>true</customer_update><publish_override/><replace_on_upgrade>false</replace_on_upgrade><restore/><sys_app/><sys_code>!!4*0/</sys_code><sys_created_by>admin</sys_created_by><sys_created_on>2014-12-04 18:54:14</sys_created_on><sys_id>d4fd59b13774310048b462c2b3990e0f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Branded CMS Global Menu</sys_name><sys_parent/><sys_path>!!4*0/</sys_path><sys_policy/><sys_source_deleted>false</sys_source_deleted><sys_source_id>1bb13b559b30310018621c760654980d</sys_source_id><sys_source_table>content_block_menu</sys_source_table><sys_type/><sys_update_name>content_block_menu_1bb13b559b30310018621c760654980d</sys_update_name><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2014-12-05 21:42:48</sys_updated_on></sys_app_file></record_update>]]></payload>
+<remote_update_set display_value="Branded CMS v0.13">42c5e9f13774310048b462c2b3990ea3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>kai.yao</sys_created_by>
+<sys_created_on>2014-12-05 21:59:13</sys_created_on>
+<sys_id>c2c5e9f13774310048b462c2b3990ea3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>kai.yao</sys_updated_by>
+<sys_updated_on>2014-12-05 21:59:13</sys_updated_on>
+<table/>
+<target_name>Branded CMS Global Menu</target_name>
+<type>Navigation Menu</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

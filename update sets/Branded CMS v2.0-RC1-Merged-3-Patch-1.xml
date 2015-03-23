@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2015-03-06 00:27:04">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Branded CMS v2.0-RC1-Merged-3-Patch-1</name>
+<origin_sys_id/>
+<release_date/>
+<remote_sys_id>0235e1fe4f267100c163e321a310c730</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_created_by>kai.yao</sys_created_by>
+<sys_created_on>2015-03-06 00:27:04</sys_created_on>
+<sys_id>0db6a5fe4f267100c163e321a310c721</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>kai.yao</sys_updated_by>
+<sys_updated_on>2015-03-06 00:27:04</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>content_block_detail_74064f964f227100c163e321a310c7f6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_detail"><content_block_detail action="DELETE"><active>true</active><category>general</category><condition/><conditional>false</conditional><frame/><logged_on>false</logged_on><model_id>e2132865c0a8016500108d9cee411699</model_id><model_table>sc_cat_item</model_table><name>Branded CMS Request Something Detail</name><script/><sys_class_name>content_block_detail</sys_class_name><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-04 18:06:31</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>74064f964f227100c163e321a310c7f6</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Branded CMS Request Something Detail</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>content_block_detail_74064f964f227100c163e321a310c7f6</sys_update_name><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-04 18:07:47</sys_updated_on><type>page</type></content_block_detail></record_update>]]></payload>
+<remote_update_set display_value="Branded CMS v2.0-RC1-Merged-3-Patch-1">0db6a5fe4f267100c163e321a310c721</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>kai.yao</sys_created_by>
+<sys_created_on>2015-03-06 00:27:04</sys_created_on>
+<sys_id>4db6a5fe4f267100c163e321a310c721</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>kai.yao</sys_updated_by>
+<sys_updated_on>2015-03-06 00:27:04</sys_updated_on>
+<table/>
+<target_name>Branded CMS Request Something Detail</target_name>
+<type>Detailed Content</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>content_block_detail_ea6f19b4b134310062c560307f643388</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_detail"><content_block_detail action="DELETE"><active>true</active><category>general</category><condition/><conditional>false</conditional><frame/><logged_on>false</logged_on><model_id/><model_table/><name>Branded CMS Knowledge Detailed Content</name><script/><sys_class_name>content_block_detail</sys_class_name><sys_created_by>kai.yao</sys_created_by><sys_created_on>2014-12-02 19:02:30</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>ea6f19b4b134310062c560307f643388</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Branded CMS Knowledge Detailed Content</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>content_block_detail_ea6f19b4b134310062c560307f643388</sys_update_name><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2014-12-02 19:02:30</sys_updated_on><type>page</type></content_block_detail></record_update>]]></payload>
+<remote_update_set display_value="Branded CMS v2.0-RC1-Merged-3-Patch-1">0db6a5fe4f267100c163e321a310c721</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>kai.yao</sys_created_by>
+<sys_created_on>2015-03-06 00:27:04</sys_created_on>
+<sys_id>8db6a5fe4f267100c163e321a310c721</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>kai.yao</sys_updated_by>
+<sys_updated_on>2015-03-06 00:27:04</sys_updated_on>
+<table/>
+<target_name>Branded CMS Knowledge Detailed Content</target_name>
+<type>Detailed Content</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

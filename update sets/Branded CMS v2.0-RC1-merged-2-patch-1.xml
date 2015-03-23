@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2015-03-06 00:06:10">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Branded CMS v2.0-RC1-Merged-2-Patch1</name>
+<origin_sys_id/>
+<release_date/>
+<remote_sys_id>e390bc764f267100c163e321a310c7b9</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_created_by>kai.yao</sys_created_by>
+<sys_created_on>2015-03-06 00:06:10</sys_created_on>
+<sys_id>83e1e57e4f267100c163e321a310c7be</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>kai.yao</sys_updated_by>
+<sys_updated_on>2015-03-06 00:06:10</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>menu_section_6144ea6d9b0231003fe61c76065498a2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="menu_section"><menu_section action="INSERT_OR_UPDATE"><active>true</active><category/><contains_menu/><content_block_menu display_value="Branded CMS Main Menu">182e9ac94de8310062c55dc1f2a64e4c</content_block_menu><db_left_menu_image/><db_right_menu_image/><detail_page/><footer/><header/><iframe/><image/><image_right/><logged_on>false</logged_on><menu_section_color/><name>My Stuff</name><omit_body>false</omit_body><order>240</order><roles/><second_level_text/><sys_class_name>menu_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-02-05 11:12:15</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>6144ea6d9b0231003fe61c76065498a2</sys_id><sys_mod_count>2</sys_mod_count><sys_name>My Stuff</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>menu_section_6144ea6d9b0231003fe61c76065498a2</sys_update_name><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:05:02</sys_updated_on><tag/><target>internal</target><type>content_page</type><url/></menu_section><sys_translated_text action="delete_multiple" query="documentkey=6144ea6d9b0231003fe61c76065498a2"/></record_update>]]></payload>
+<remote_update_set display_value="Branded CMS v2.0-RC1-Merged-2-Patch1">83e1e57e4f267100c163e321a310c7be</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>kai.yao</sys_created_by>
+<sys_created_on>2015-03-06 00:06:10</sys_created_on>
+<sys_id>07e1e57e4f267100c163e321a310c7be</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>kai.yao</sys_updated_by>
+<sys_updated_on>2015-03-06 00:06:10</sys_updated_on>
+<table/>
+<target_name>My Stuff</target_name>
+<type>Menu Section</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>menu_section_cc27a60d4de8310062c55dc1f2a64e77</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="menu_section"><menu_section action="INSERT_OR_UPDATE"><active>true</active><category/><contains_menu/><content_block_menu display_value="Branded CMS Main Menu">182e9ac94de8310062c55dc1f2a64e4c</content_block_menu><db_left_menu_image/><db_right_menu_image/><detail_page display_value="Branded CMS - Live Feed">a2750ceb4de8710062c55dc1f2a64ece</detail_page><footer/><header/><iframe/><image/><image_right/><logged_on>false</logged_on><menu_section_color/><name>Live Feed</name><omit_body>false</omit_body><order>230</order><roles/><second_level_text/><sys_class_name>menu_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2014-11-21 08:33:34</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>cc27a60d4de8310062c55dc1f2a64e77</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Live Feed</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>menu_section_cc27a60d4de8310062c55dc1f2a64e77</sys_update_name><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:04:09</sys_updated_on><tag/><target>internal</target><type>content_page</type><url/></menu_section><sys_translated_text action="delete_multiple" query="documentkey=cc27a60d4de8310062c55dc1f2a64e77"/></record_update>]]></payload>
+<remote_update_set display_value="Branded CMS v2.0-RC1-Merged-2-Patch1">83e1e57e4f267100c163e321a310c7be</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>kai.yao</sys_created_by>
+<sys_created_on>2015-03-06 00:06:10</sys_created_on>
+<sys_id>47e1e57e4f267100c163e321a310c7be</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>kai.yao</sys_updated_by>
+<sys_updated_on>2015-03-06 00:06:10</sys_updated_on>
+<table/>
+<target_name>Live Feed</target_name>
+<type>Menu Section</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_gauge_f640ed3e4f267100c163e321a310c7b6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_gauge"><sys_gauge action="INSERT_OR_UPDATE"><active>true</active><aggregate>COUNT</aggregate><attributes/><fieldname/><group_field/><lower_limit/><name>My Open Records</name><order/><other_threshold>-2</other_threshold><parent/><query/><report display_value="My Open Records">f79e7ba64fe27100c163e321a310c776</report><roles/><stack_field/><sys_class_name>sys_gauge</sys_class_name><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-05 23:59:04</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>f640ed3e4f267100c163e321a310c7b6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Open Records</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_gauge_f640ed3e4f267100c163e321a310c7b6</sys_update_name><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-05 23:59:04</sys_updated_on><tablename>sm_order</tablename><title>My Open Records</title><type>report</type><upper_limit/><url/><view/></sys_gauge></record_update>]]></payload>
+<remote_update_set display_value="Branded CMS v2.0-RC1-Merged-2-Patch1">83e1e57e4f267100c163e321a310c7be</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>kai.yao</sys_created_by>
+<sys_created_on>2015-03-06 00:06:10</sys_created_on>
+<sys_id>87e1e57e4f267100c163e321a310c7be</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>kai.yao</sys_updated_by>
+<sys_updated_on>2015-03-06 00:06:10</sys_updated_on>
+<table>sm_order</table>
+<target_name>My Open Records</target_name>
+<type>Gauge</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>content_page_e3ef993e4f267100c163e321a310c78b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update node_type="content_page" unload_date="2015-03-06 00:01:09"><sys_portal action="delete_multiple" query="page=e3ef993e4f267100c163e321a310c78b"><related_items_node><sys_portal action="INSERT_OR_UPDATE"><dropzone>dropzone0</dropzone><offset>0</offset><page display_value="My Stuff">e3ef993e4f267100c163e321a310c78b</page><summary/><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-06 00:01:08</sys_created_on><sys_id>55c0a17e4f267100c163e321a310c7cc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:01:08</sys_updated_on><related_items_node><sys_portal_preferences action="INSERT_OR_UPDATE"><name>sys_id</name><portal_section display_value="Created 2015-03-05 16:01:08">55c0a17e4f267100c163e321a310c7cc</portal_section><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-06 00:01:08</sys_created_on><sys_id>19c0a17e4f267100c163e321a310c7cc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:01:08</sys_updated_on><value>427de8414de8310062c55dc1f2a64e44</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>renderer</name><portal_section display_value="Created 2015-03-05 16:01:08">55c0a17e4f267100c163e321a310c7cc</portal_section><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-06 00:01:08</sys_created_on><sys_id>1dc0a17e4f267100c163e321a310c7cc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:01:08</sys_updated_on><value>com.glide.cms.RenderBlock</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>title</name><portal_section display_value="Created 2015-03-05 16:01:08">55c0a17e4f267100c163e321a310c7cc</portal_section><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-06 00:01:08</sys_created_on><sys_id>95c0a17e4f267100c163e321a310c7cc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:01:08</sys_updated_on><value>Branded CMS Header</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>type</name><portal_section display_value="Created 2015-03-05 16:01:08">55c0a17e4f267100c163e321a310c7cc</portal_section><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-06 00:01:08</sys_created_on><sys_id>99c0a17e4f267100c163e321a310c7cc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:01:08</sys_updated_on><value>content_block_header</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>current_page</name><portal_section display_value="Created 2015-03-05 16:01:08">55c0a17e4f267100c163e321a310c7cc</portal_section><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-06 00:01:08</sys_created_on><sys_id>9dc0a17e4f267100c163e321a310c7cc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:01:08</sys_updated_on><value>c002ab214dec310062c55dc1f2a64ecc</value></sys_portal_preferences></related_items_node></sys_portal><sys_portal action="INSERT_OR_UPDATE"><dropzone>dropzone10</dropzone><offset>0</offset><page display_value="My Stuff">e3ef993e4f267100c163e321a310c78b</page><summary/><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-06 00:01:09</sys_created_on><sys_id>69c0a17e4f267100c163e321a310c7ce</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:01:09</sys_updated_on><related_items_node><sys_portal_preferences action="INSERT_OR_UPDATE"><name>current_page</name><portal_section display_value="Created 2015-03-05 16:01:09">69c0a17e4f267100c163e321a310c7ce</portal_section><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-06 00:01:09</sys_created_on><sys_id>21c0a17e4f267100c163e321a310c7cf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:01:09</sys_updated_on><value>e3ef993e4f267100c163e321a310c78b</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>sys_id</name><portal_section display_value="Created 2015-03-05 16:01:09">69c0a17e4f267100c163e321a310c7ce</portal_section><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-06 00:01:09</sys_created_on><sys_id>2dc0a17e4f267100c163e321a310c7ce</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:01:09</sys_updated_on><value>f640ed3e4f267100c163e321a310c7b6</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>title</name><portal_section display_value="Created 2015-03-05 16:01:09">69c0a17e4f267100c163e321a310c7ce</portal_section><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-06 00:01:09</sys_created_on><sys_id>a9c0a17e4f267100c163e321a310c7ce</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:01:09</sys_updated_on><value>My Open Records</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>renderer</name><portal_section display_value="Created 2015-03-05 16:01:09">69c0a17e4f267100c163e321a310c7ce</portal_section><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-06 00:01:09</sys_created_on><sys_id>adc0a17e4f267100c163e321a310c7ce</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:01:09</sys_updated_on><value>com.glide.ui.portal.RenderDashboard</value></sys_portal_preferences></related_items_node></sys_portal><sys_portal action="INSERT_OR_UPDATE"><dropzone>dropzone20</dropzone><offset>0</offset><page display_value="My Stuff">e3ef993e4f267100c163e321a310c78b</page><summary/><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-06 00:01:09</sys_created_on><sys_id>69c0a17e4f267100c163e321a310c7cf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:01:09</sys_updated_on><related_items_node><sys_portal_preferences action="INSERT_OR_UPDATE"><name>renderer</name><portal_section display_value="Created 2015-03-05 16:01:09">69c0a17e4f267100c163e321a310c7cf</portal_section><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-06 00:01:09</sys_created_on><sys_id>21c0a17e4f267100c163e321a310c7d0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:01:09</sys_updated_on><value>com.glide.cms.RenderBlock</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>sys_id</name><portal_section display_value="Created 2015-03-05 16:01:09">69c0a17e4f267100c163e321a310c7cf</portal_section><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-06 00:01:09</sys_created_on><sys_id>2dc0a17e4f267100c163e321a310c7cf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:01:09</sys_updated_on><value>a9046c164da0710062c55dc1f2a64e58</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>current_page</name><portal_section display_value="Created 2015-03-05 16:01:09">69c0a17e4f267100c163e321a310c7cf</portal_section><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-06 00:01:09</sys_created_on><sys_id>a1c0a17e4f267100c163e321a310c7d0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:01:09</sys_updated_on><value>c002ab214dec310062c55dc1f2a64ecc</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>title</name><portal_section display_value="Created 2015-03-05 16:01:09">69c0a17e4f267100c163e321a310c7cf</portal_section><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-06 00:01:09</sys_created_on><sys_id>a9c0a17e4f267100c163e321a310c7cf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:01:09</sys_updated_on><value>Branded CMS Footer</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>type</name><portal_section display_value="Created 2015-03-05 16:01:09">69c0a17e4f267100c163e321a310c7cf</portal_section><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-06 00:01:09</sys_created_on><sys_id>adc0a17e4f267100c163e321a310c7cf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:01:09</sys_updated_on><value>content_block_programmatic</value></sys_portal_preferences></related_items_node></sys_portal><sys_portal action="INSERT_OR_UPDATE"><dropzone>dropzone0</dropzone><offset>1</offset><page display_value="My Stuff">e3ef993e4f267100c163e321a310c78b</page><summary/><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-06 00:01:08</sys_created_on><sys_id>d5c0a17e4f267100c163e321a310c7cd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:01:08</sys_updated_on><related_items_node><sys_portal_preferences action="INSERT_OR_UPDATE"><name>current_page</name><portal_section display_value="Created 2015-03-05 16:01:08">d5c0a17e4f267100c163e321a310c7cd</portal_section><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-06 00:01:08</sys_created_on><sys_id>11c0a17e4f267100c163e321a310c7ce</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:01:08</sys_updated_on><value>90905534b134310062c560307f6433ed</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>title</name><portal_section display_value="Created 2015-03-05 16:01:08">d5c0a17e4f267100c163e321a310c7cd</portal_section><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-06 00:01:08</sys_created_on><sys_id>19c0a17e4f267100c163e321a310c7cd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:01:08</sys_updated_on><value>Branded CMS Page Title</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>type</name><portal_section display_value="Created 2015-03-05 16:01:08">d5c0a17e4f267100c163e321a310c7cd</portal_section><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-06 00:01:08</sys_created_on><sys_id>1dc0a17e4f267100c163e321a310c7cd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:01:08</sys_updated_on><value>content_block_programmatic</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>sys_id</name><portal_section display_value="Created 2015-03-05 16:01:08">d5c0a17e4f267100c163e321a310c7cd</portal_section><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-06 00:01:08</sys_created_on><sys_id>99c0a17e4f267100c163e321a310c7cd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:01:08</sys_updated_on><value>6401a7159b30310018621c76065498d4</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>renderer</name><portal_section display_value="Created 2015-03-05 16:01:08">d5c0a17e4f267100c163e321a310c7cd</portal_section><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-06 00:01:08</sys_created_on><sys_id>9dc0a17e4f267100c163e321a310c7cd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:01:08</sys_updated_on><value>com.glide.cms.RenderBlock</value></sys_portal_preferences></related_items_node></sys_portal></related_items_node></sys_portal><content_page action="INSERT_OR_UPDATE"><content_site display_value="Branded CMS">ce5b99904de4310062c55dc1f2a64e73</content_site><content_theme/><description/><frame_buster>false</frame_buster><layout/><model_id/><model_table/><name>Branded CMS - My Stuff</name><order/><parent_page/><read_roles/><roles/><selectable>true</selectable><sys_class_name>content_page</sys_class_name><sys_created_by>kai.yao</sys_created_by><sys_created_on>2015-03-05 23:57:28</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e3ef993e4f267100c163e321a310c78b</sys_id><sys_mod_count>20</sys_mod_count><sys_name>Branded CMS - My Stuff</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>content_page_e3ef993e4f267100c163e321a310c78b</sys_update_name><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-06 00:01:09</sys_updated_on><title>My Stuff</title><url_suffix>mystuff</url_suffix><user/><view/><workflow_state>published</workflow_state></content_page></record_update>]]></payload>
+<remote_update_set display_value="Branded CMS v2.0-RC1-Merged-2-Patch1">83e1e57e4f267100c163e321a310c7be</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>kai.yao</sys_created_by>
+<sys_created_on>2015-03-06 00:06:10</sys_created_on>
+<sys_id>c3e1e57e4f267100c163e321a310c7be</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>kai.yao</sys_updated_by>
+<sys_updated_on>2015-03-06 00:06:10</sys_updated_on>
+<table/>
+<target_name>Branded CMS - My Stuff</target_name>
+<type>Page</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

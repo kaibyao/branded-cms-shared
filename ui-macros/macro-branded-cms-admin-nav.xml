@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+<j:if test="${gs.hasRole('content_admin')}">
+
+	<nav class="branded-admin-nav navbar navbar-inverse navbar-static-top" role="navigation">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<span class="navbar-brand">Admin Section</span>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="branded-admin-nav-links">
+				<ul class="nav navbar-nav">
+					<li><a href="/content_page.do?sys_id=${current_page.getID()}">${gs.getMessage('Edit Page Settings')}</a></li>
+					<li><a href="/edit_content.do?sysparm_sys_id=${current_page.getID()}">${gs.getMessage('Edit Page Layout')}</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container -->
+	</nav>
+
+</j:if>
+
+</j:jelly>

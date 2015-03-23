@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2015-03-13 10:37:42">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Branded CMS + HR CMS v2.0-RC1-Merged-1-Patch-4</name>
+<origin_sys_id/>
+<release_date/>
+<remote_sys_id>8d34b3494f76b100c163e321a310c7cb</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_created_by>kai.yao</sys_created_by>
+<sys_created_on>2015-03-13 10:37:42</sys_created_on>
+<sys_id>9295f7494f76b100c163e321a310c79a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>kai.yao</sys_updated_by>
+<sys_updated_on>2015-03-13 10:37:42</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>kb_category_2bdcab8bff0221009b20ffffffffff41</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_category"><kb_category action="INSERT_OR_UPDATE"><active>true</active><full_category/><label>News</label><parent_id>ffcdf061ff2121009b20ffffffffffa4</parent_id><parent_table>kb_knowledge_base</parent_table><sys_created_by>admin</sys_created_by><sys_created_on>2014-07-27 12:09:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2bdcab8bff0221009b20ffffffffff41</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2014-07-27 12:09:51</sys_updated_on><value>news</value></kb_category></record_update>]]></payload>
+<remote_update_set display_value="Branded CMS + HR CMS v2.0-RC1-Merged-1-Patch-4">9295f7494f76b100c163e321a310c79a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>kai.yao</sys_created_by>
+<sys_created_on>2015-03-13 10:37:42</sys_created_on>
+<sys_id>1695f7494f76b100c163e321a310c79a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>kai.yao</sys_updated_by>
+<sys_updated_on>2015-03-13 10:37:42</sys_updated_on>
+<table/>
+<target_name>News</target_name>
+<type>Knowledge Category</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>kb_knowledge_4a44f2924f227100c163e321a310c7b0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_knowledge"><kb_knowledge action="INSERT_OR_UPDATE"><active>true</active><article_type>text</article_type><author display_value="Eric Hemmer">f5ddf14c4f623100c163e321a310c72c</author><category/><cmdb_ci/><description/><direct>false</direct><disable_commenting>false</disable_commenting><disable_suggesting>false</disable_suggesting><display_attachments>false</display_attachments><flagged>false</flagged><image/><kb_category display_value="Events">27a3b2924f227100c163e321a310c706</kb_category><kb_knowledge_base display_value="HR">ffcdf061ff2121009b20ffffffffffa4</kb_knowledge_base><meta/><number>KB0011020</number><published>2015-03-04</published><rating/><retired/><roles/><short_description>Company Wide meeting to discuss Fair Labor Standards Act</short_description><source/><sys_class_name>kb_knowledge</sys_class_name><sys_created_by>eric.hemmer</sys_created_by><sys_created_on>2015-03-04 16:49:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4a44f2924f227100c163e321a310c7b0</sys_id><sys_mod_count>13</sys_mod_count><sys_updated_by>kai.yao</sys_updated_by><sys_updated_on>2015-03-12 22:25:27</sys_updated_on><sys_view_count>7</sys_view_count><text/><topic>General</topic><use_count>0</use_count><valid_to>2020-01-01</valid_to><wiki/><workflow_state>published</workflow_state></kb_knowledge><sys_translated_text action="delete_multiple" query="documentkey=4a44f2924f227100c163e321a310c7b0"/></record_update>]]></payload>
+<remote_update_set display_value="Branded CMS + HR CMS v2.0-RC1-Merged-1-Patch-4">9295f7494f76b100c163e321a310c79a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>kai.yao</sys_created_by>
+<sys_created_on>2015-03-13 10:37:42</sys_created_on>
+<sys_id>1a95f7494f76b100c163e321a310c79a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>kai.yao</sys_updated_by>
+<sys_updated_on>2015-03-13 10:37:42</sys_updated_on>
+<table/>
+<target_name>KB0011020</target_name>
+<type>Knowledge</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>kb_knowledge_09a3b2924f227100c163e321a310c701</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;&lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;article_type&gt;text&lt;/article_type&gt;&lt;author display_value="Eric Hemmer"&gt;f5ddf14c4f623100c163e321a310c72c&lt;/author&gt;&lt;category/&gt;&lt;cmdb_ci/&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;disable_commenting&gt;false&lt;/disable_commenting&gt;&lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;&lt;display_attachments&gt;false&lt;/display_attachments&gt;&lt;flagged&gt;false&lt;/flagged&gt;&lt;image/&gt;&lt;kb_category display_value="Events"&gt;27a3b2924f227100c163e321a310c706&lt;/kb_category&gt;&lt;kb_knowledge_base display_value="HR"&gt;ffcdf061ff2121009b20ffffffffffa4&lt;/kb_knowledge_base&gt;&lt;meta/&gt;&lt;number&gt;KB0011019&lt;/number&gt;&lt;published&gt;2015-03-04&lt;/published&gt;&lt;rating/&gt;&lt;retired/&gt;&lt;roles/&gt;&lt;short_description&gt;Company Wide meeting to review 401K&lt;/short_description&gt;&lt;source/&gt;&lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;&lt;sys_created_by&gt;eric.hemmer&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-03-04 16:47:03&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;09a3b2924f227100c163e321a310c701&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;eric.hemmer&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2015-03-04 16:47:08&lt;/sys_updated_on&gt;&lt;sys_view_count&gt;0&lt;/sys_view_count&gt;&lt;text&gt;&lt;![CDATA[&lt;p&gt; &lt;/p&gt;
+&lt;p class="p1"&gt;Company Wide meeting to review 401K.  Click here to register.&lt;/p&gt;]]&gt;&lt;/text&gt;&lt;topic&gt;General&lt;/topic&gt;&lt;use_count&gt;0&lt;/use_count&gt;&lt;valid_to&gt;2020-01-01&lt;/valid_to&gt;&lt;wiki/&gt;&lt;workflow_state&gt;published&lt;/workflow_state&gt;&lt;/kb_knowledge&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=09a3b2924f227100c163e321a310c701"/&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Branded CMS + HR CMS v2.0-RC1-Merged-1-Patch-4">9295f7494f76b100c163e321a310c79a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>kai.yao</sys_created_by>
+<sys_created_on>2015-03-13 10:37:42</sys_created_on>
+<sys_id>5695f7494f76b100c163e321a310c79a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>kai.yao</sys_updated_by>
+<sys_updated_on>2015-03-13 10:37:42</sys_updated_on>
+<table/>
+<target_name>KB0011019</target_name>
+<type>Knowledge</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>kb_knowledge_8a33fe524f227100c163e321a310c7bd</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;&lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;article_type&gt;text&lt;/article_type&gt;&lt;author display_value="Eric Hemmer"&gt;f5ddf14c4f623100c163e321a310c72c&lt;/author&gt;&lt;category/&gt;&lt;cmdb_ci/&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;disable_commenting&gt;false&lt;/disable_commenting&gt;&lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;&lt;display_attachments&gt;false&lt;/display_attachments&gt;&lt;flagged&gt;false&lt;/flagged&gt;&lt;image/&gt;&lt;kb_category display_value="News"&gt;2bdcab8bff0221009b20ffffffffff41&lt;/kb_category&gt;&lt;kb_knowledge_base display_value="HR"&gt;ffcdf061ff2121009b20ffffffffffa4&lt;/kb_knowledge_base&gt;&lt;meta/&gt;&lt;number&gt;KB0011017&lt;/number&gt;&lt;published&gt;2015-03-04&lt;/published&gt;&lt;rating/&gt;&lt;retired/&gt;&lt;roles/&gt;&lt;short_description&gt;Open Enrollment Begins Thursday!!!&lt;/short_description&gt;&lt;source/&gt;&lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;&lt;sys_created_by&gt;eric.hemmer&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-03-04 16:44:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8a33fe524f227100c163e321a310c7bd&lt;/sys_id&gt;&lt;sys_mod_count&gt;23&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;kai.yao&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2015-03-13 07:35:21&lt;/sys_updated_on&gt;&lt;sys_view_count&gt;19&lt;/sys_view_count&gt;&lt;text&gt;&lt;![CDATA[&lt;p&gt; &lt;/p&gt;
+&lt;p class="p1"&gt;Open Enrollment Begins Thursday!!!&lt;/p&gt;]]&gt;&lt;/text&gt;&lt;topic&gt;General&lt;/topic&gt;&lt;use_count&gt;0&lt;/use_count&gt;&lt;valid_to&gt;2020-01-01&lt;/valid_to&gt;&lt;wiki/&gt;&lt;workflow_state&gt;published&lt;/workflow_state&gt;&lt;/kb_knowledge&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=8a33fe524f227100c163e321a310c7bd"/&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Branded CMS + HR CMS v2.0-RC1-Merged-1-Patch-4">9295f7494f76b100c163e321a310c79a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>kai.yao</sys_created_by>
+<sys_created_on>2015-03-13 10:37:42</sys_created_on>
+<sys_id>5a95f7494f76b100c163e321a310c79a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>kai.yao</sys_updated_by>
+<sys_updated_on>2015-03-13 10:37:42</sys_updated_on>
+<table/>
+<target_name>KB0011017</target_name>
+<type>Knowledge</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>kb_knowledge_100332924f227100c163e321a310c784</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;&lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;article_type&gt;text&lt;/article_type&gt;&lt;author display_value="Eric Hemmer"&gt;f5ddf14c4f623100c163e321a310c72c&lt;/author&gt;&lt;category/&gt;&lt;cmdb_ci/&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;disable_commenting&gt;false&lt;/disable_commenting&gt;&lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;&lt;display_attachments&gt;false&lt;/display_attachments&gt;&lt;flagged&gt;false&lt;/flagged&gt;&lt;image/&gt;&lt;kb_category display_value="News"&gt;2bdcab8bff0221009b20ffffffffff41&lt;/kb_category&gt;&lt;kb_knowledge_base display_value="HR"&gt;ffcdf061ff2121009b20ffffffffffa4&lt;/kb_knowledge_base&gt;&lt;meta/&gt;&lt;number&gt;KB0011016&lt;/number&gt;&lt;published&gt;2015-03-04&lt;/published&gt;&lt;rating/&gt;&lt;retired/&gt;&lt;roles/&gt;&lt;short_description&gt;New Corporate Leave of Absence (LOA) Policy&lt;/short_description&gt;&lt;source/&gt;&lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;&lt;sys_created_by&gt;eric.hemmer&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-03-04 16:44:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;100332924f227100c163e321a310c784&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;kai.yao&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2015-03-09 20:32:39&lt;/sys_updated_on&gt;&lt;sys_view_count&gt;1&lt;/sys_view_count&gt;&lt;text&gt;&lt;![CDATA[&lt;p&gt; &lt;/p&gt;
+&lt;p class="p1"&gt;New Corporate Leave of Absence (LOA) Policy&lt;/p&gt;]]&gt;&lt;/text&gt;&lt;topic&gt;General&lt;/topic&gt;&lt;use_count&gt;0&lt;/use_count&gt;&lt;valid_to&gt;2020-01-01&lt;/valid_to&gt;&lt;wiki/&gt;&lt;workflow_state&gt;published&lt;/workflow_state&gt;&lt;/kb_knowledge&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=100332924f227100c163e321a310c784"/&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Branded CMS + HR CMS v2.0-RC1-Merged-1-Patch-4">9295f7494f76b100c163e321a310c79a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>kai.yao</sys_created_by>
+<sys_created_on>2015-03-13 10:37:42</sys_created_on>
+<sys_id>9695f7494f76b100c163e321a310c79a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>kai.yao</sys_updated_by>
+<sys_updated_on>2015-03-13 10:37:42</sys_updated_on>
+<table/>
+<target_name>KB0011016</target_name>
+<type>Knowledge</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>kb_category_27a3b2924f227100c163e321a310c706</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_category"><kb_category action="INSERT_OR_UPDATE"><active>true</active><full_category/><label>Events</label><parent_id>ffcdf061ff2121009b20ffffffffffa4</parent_id><parent_table>kb_knowledge_base</parent_table><sys_created_by>eric.hemmer</sys_created_by><sys_created_on>2015-03-04 16:46:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>27a3b2924f227100c163e321a310c706</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>eric.hemmer</sys_updated_by><sys_updated_on>2015-03-04 16:46:25</sys_updated_on><value>events</value></kb_category></record_update>]]></payload>
+<remote_update_set display_value="Branded CMS + HR CMS v2.0-RC1-Merged-1-Patch-4">9295f7494f76b100c163e321a310c79a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>kai.yao</sys_created_by>
+<sys_created_on>2015-03-13 10:37:42</sys_created_on>
+<sys_id>d295f7494f76b100c163e321a310c79a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>kai.yao</sys_updated_by>
+<sys_updated_on>2015-03-13 10:37:42</sys_updated_on>
+<table/>
+<target_name>Events</target_name>
+<type>Knowledge Category</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>kb_knowledge_395372924f227100c163e321a310c771</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;&lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;article_type&gt;text&lt;/article_type&gt;&lt;author display_value="Eric Hemmer"&gt;f5ddf14c4f623100c163e321a310c72c&lt;/author&gt;&lt;category/&gt;&lt;cmdb_ci/&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;disable_commenting&gt;false&lt;/disable_commenting&gt;&lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;&lt;display_attachments&gt;false&lt;/display_attachments&gt;&lt;flagged&gt;false&lt;/flagged&gt;&lt;image/&gt;&lt;kb_category display_value="News"&gt;2bdcab8bff0221009b20ffffffffff41&lt;/kb_category&gt;&lt;kb_knowledge_base display_value="HR"&gt;ffcdf061ff2121009b20ffffffffffa4&lt;/kb_knowledge_base&gt;&lt;meta/&gt;&lt;number&gt;KB0011018&lt;/number&gt;&lt;published&gt;2015-03-04&lt;/published&gt;&lt;rating/&gt;&lt;retired/&gt;&lt;roles/&gt;&lt;short_description&gt;We are changing 401(k) service providers.  Click here to learn more!&lt;/short_description&gt;&lt;source/&gt;&lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;&lt;sys_created_by&gt;eric.hemmer&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-03-04 16:45:16&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;395372924f227100c163e321a310c771&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;eric.hemmer&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2015-03-04 16:45:21&lt;/sys_updated_on&gt;&lt;sys_view_count&gt;0&lt;/sys_view_count&gt;&lt;text&gt;&lt;![CDATA[&lt;p&gt; &lt;/p&gt;
+&lt;p class="p1"&gt;We are changing 401(k) service providers.  Click here to learn more!&lt;/p&gt;]]&gt;&lt;/text&gt;&lt;topic&gt;General&lt;/topic&gt;&lt;use_count&gt;0&lt;/use_count&gt;&lt;valid_to&gt;2020-01-01&lt;/valid_to&gt;&lt;wiki/&gt;&lt;workflow_state&gt;published&lt;/workflow_state&gt;&lt;/kb_knowledge&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=395372924f227100c163e321a310c771"/&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Branded CMS + HR CMS v2.0-RC1-Merged-1-Patch-4">9295f7494f76b100c163e321a310c79a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>kai.yao</sys_created_by>
+<sys_created_on>2015-03-13 10:37:42</sys_created_on>
+<sys_id>d695f7494f76b100c163e321a310c79a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>kai.yao</sys_updated_by>
+<sys_updated_on>2015-03-13 10:37:42</sys_updated_on>
+<table/>
+<target_name>KB0011018</target_name>
+<type>Knowledge</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
