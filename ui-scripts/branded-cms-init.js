@@ -33,7 +33,7 @@ var jquery;
 		var pathJsMap = [
 				{ path : 'get_help.do', require : 'brandedgethelp' },
 				{ path : 'knowledgebase.do', require : 'brandedknowledgebase' },
-				{ path : 'service_catalog.do', require : 'brandedcatalog' }
+				{ path : 'requestsomething.do', require : 'brandedcatalog' }
 			],
 			i;
 

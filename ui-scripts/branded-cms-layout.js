@@ -3,7 +3,7 @@
 			var $headerLogoContainer = $j( 'td.cms_header_logo' ),
 				chatLinks = [
 					{ sys_id : 'c54f0abf0a0a0b452db84664f409c79c', title : 'Chat with Service Desk' },
-					{ sys_id : '4a936a590f2121002b58f25be1050e8a', title : 'Chat with Human Resources' }
+					{ sys_id : 'fb67b9d8370b310053cc696043990ee9', title : 'Chat with Human Resources' }
 				];
 
 			$j( 'html' ).attr( 'data-doctype', false ).data( 'doctype', false );
@@ -65,10 +65,15 @@
 
 				$menuBlock.addClass( 'col-xs-12 col-md-' + columnsPerBlock );
 			} );
-
 			$j( '.page-home .main-content .cms_menu_section_blocks' ).first().parent().addClass( 'home-block-row' ).removeClass( 'row' );
-
 			$j( '.main-content .cms_menu_section_blocks > table > tbody > tr:nth-child(2) > td' ).addClass( 'main-content-menu-block-items' );
+			// hiding empty captions
+			$j( '.carousel-caption' ).each( function( i, el ) {
+				var $caption = $j( el );
+				if ( !$j.trim( $caption.text() ) ) {
+					$caption.hide();
+				}
+			} );
 
 			$j( '.branded-admin-nav' ).prependTo( 'body' ).show();
 
@@ -82,17 +87,17 @@
 				append( $j( 'div.cms_header_top_menu' ).children().filter( ':not(:empty)' ) ).
 				prependTo( 'td.cms_header_text' );
 
-			$j( '.branded-chat-link' ).each( function( i, el ) {
-				$j( el ).on( 'click', function() {
-					CustomEvent.fire(LiveEvents.LIVE_EVENT, LiveEvents.LIVE_WINDOW_JOIN_QUEUE_QUERY, chatLinks[ i ].sys_id, chatLinks[ i ].title );
-					return false;
-				} );
-			} );
-
 			// chat for the HR site
 			$j( '.branded-chat-container a' ).on( 'click', function() {
 				CustomEvent.fire(LiveEvents.LIVE_EVENT, LiveEvents.LIVE_WINDOW_JOIN_QUEUE_QUERY, chatLinks[ 1 ].sys_id, chatLinks[ 1 ].title );
 				return false;
+			} );
+
+			$j( '.branded-chat-link' ).off().each( function( i, el ) {
+				$j( el ).on( 'click', function() {
+					CustomEvent.fire(LiveEvents.LIVE_EVENT, LiveEvents.LIVE_WINDOW_JOIN_QUEUE_QUERY, chatLinks[ i ].sys_id, chatLinks[ i ].title );
+					return false;
+				} );
 			} );
 
 			// Sidebar text unescaping (Couldn't figure out how to this in Jelly)
@@ -114,6 +119,29 @@
 
 		hideAdminBar = function() {
 			$j( '.branded-admin-nav' ).hide();
+		},
+
+		styleIframe = function( iframeEl ) {
+			return function() {
+				// add overriding styles to iframe
+				var $iframeDoc = $j( iframeEl.contentDocument );
+
+				$iframeDoc.find( 'head' ).append( '<link rel="stylesheet" type="text/css" href="/d7fafb024da0710062c55dc1f2a64ee3.cssdbx" />' );
+
+				setInterval( checkResizeIframe( $j( iframeEl ) ), 700 );
+			}
+		},
+
+		checkResizeIframe = function( $iframe ) {
+			return function() {
+				var $iframeBody = $j( $iframe[ 0 ].contentDocument ).find( 'body' ),
+					iframeBodyHeight = $iframeBody.css( 'height' ),
+					iframeHeight = $iframe.css( 'height' );
+
+				if ( iframeHeight !== iframeBodyHeight ) {
+					$iframe.css( 'height', ( parseInt( iframeBodyHeight ) + 80 ) + 'px' ); // adding height padding to offset hover tooltips inside iframe getting cut off
+				}
+			}
 		};
 
 	$j( document ).ready( function() {
@@ -135,6 +163,18 @@
 
 			return wb;
 		};
+
+		// our iframe resizing is broken. this script fixes it + override theme styles
+		$j( 'iframe' ).each( function( i, el ) {
+			var $iframe = $j( el ),
+				$iframeDoc = $j( el.contentDocument );
+
+			$iframeDoc.ready( function() {
+				styleIframe( el )();
+
+				$iframe.on( 'load', styleIframe( el ) );
+			} );
+		} );
 	} );
 
 } )();

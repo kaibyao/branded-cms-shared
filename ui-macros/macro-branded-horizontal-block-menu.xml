@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+<g:evaluate>
+	var menuClassName = menuGR.name.replace( /\s/ig, '-' ).toLowerCase(),
+		sectionGR = new GlideRecord( 'menu_section' ),
+		sectionCount = new GlideAggregate( 'menu_section' ),
+		maxBlocksPerRow = 4,
+		columnsPerRow = 12,
+		columnsPerBlock,
+		numBlocks,
+		i;
+
+	sectionGR.addQuery( 'content_block_menu', menuGR.getUniqueValue() );
+	sectionGR.addQuery( 'active', 'true' );
+	sectionGR.orderBy( 'order' );
+	sectionGR.query();
+
+	// getting # of blocks
+	sectionCount.addQuery( 'content_block_menu', menuGR.getUniqueValue() );
+	sectionCount.addQuery( 'active', 'true' );
+	sectionCount.addAggregate( 'COUNT' );
+	sectionCount.query();
+
+	if ( sectionCount.next() ) {
+		numBlocks = parseInt( sectionCount.getAggregate( 'COUNT' ) );
+	}
+
+	// calculating how many menu blocks per row
+	if ( numBlocks > maxBlocksPerRow ) {
+		if ( numBlocks % 4 === 0 ) {
+			columnsPerBlock = 4;
+		} else if ( numBlocks % 3 === 0 ) {
+			columnsPerBlock = 3;
+		} else {
+			for ( i = maxBlocksPerRow; i >= 3; i-- ) {
+				switch ( numBlocks % i ) {
+					case 1 :
+						continue;
+					case 0 :
+					case 2 :
+					case 3 :
+						columnsPerBlock = columnsPerRow / i;
+						i = 2;
+				}
+			}
+		}
+	} else {
+		columnsPerBlock = Math.floor( columnsPerRow / numBlocks );
+	}
+	columnsPerBlock = columnsPerBlock.toString();
+	if ( ( i = columnsPerBlock.indexOf( '.0' ) ) !== -1 ) {
+		columnsPerBlock = columnsPerBlock.slice( 0, i );
+	}
+</g:evaluate>
+
+<g:cms_menu_functions />
+
+<j:if test="${sectionGR.hasNext()}">
+	<div class="branded-horizontal-block-menu-container ${menuClassName}">
+		<div class="branded-horizontal-block-menu">
+			<j:while test="${sectionGR.next()}">
+				<j:if test="${canViewMenu(sectionGR)}">
+					<div class="branded-horizontal-block col-xs-12 col-md-${columnsPerBlock}">
+						<div class="branded-horizontal-block-content">
+							<div class="branded-horizontal-block-header">
+								<j:if test="${sectionGR.image.getDisplayValue()!=''}">
+									<div class="branded-horizontal-block-icon-container">
+										<img class="branded-horizontal-block-icon" src="${sectionGR.image.getDisplayValue()}" alt="" />
+									</div>
+								</j:if>
+								<div class="branded-horizontal-block-text">
+									<h3 class="branded-horizontal-block-title">
+										<g:cms_menu_set_url_and_target link_sysid="${sectionGR.getUniqueValue()}" />
+										<j:switch on="${jvar_link_url}">
+											<j:case value="">
+												${sectionGR.name.getDisplayValue()}
+											</j:case>
+											<j:default>
+												<a class="branded-horizontal-block-title-link" href="${jvar_link_url}" target="${jvar_link_target}">
+													${sectionGR.name.getDisplayValue()}
+												</a>
+											</j:default>
+										</j:switch>
+									</h3>
+									<j:if test="${sectionGR.second_level_text!=''}">
+										<p class="branded-horizontal-block-subtitle">
+											${sectionGR.second_level_text.getDisplayValue()}
+										</p>
+									</j:if>
+								</div>
+							</div>
+
+							<j:set var="jvar_t" value="${sectionGR.sys_id}" />
+							<g:evaluate jelly="true" >
+								var itemGR = new GlideRecord('menu_item');
+								itemGR.addQuery('menu_section', jelly.jvar_t);
+								itemGR.addQuery('active', 'true');
+								itemGR.orderBy('order');
+								itemGR.query();
+							</g:evaluate>
+
+							<j:if test="${itemGR.hasNext()}">
+								<ul class="branded-horizontal-block-body-menu">
+									<j:while test="${itemGR.next()}">
+										<j:if test="${canViewMenu(itemGR)}">
+											<g:cms_menu_set_url_and_target />
+
+											<li class="branded-horizontal-block-body-menu-item">
+												<j:if test="${itemGR.image.getDisplayValue()!=''}">
+													<img src="${itemGR.image.getDisplayValue()}" class="branded-horizontal-block-body-menu-icon" alt="" />
+												</j:if>
+												<a class="branded-horizontal-block-body-menu-link" href="${jvar_link_url}" target="${jvar_link_target}">${itemGR.name.getDisplayValue()}</a>
+											</li>
+										</j:if>
+									</j:while>
+								</ul>
+							</j:if>
+						</div>
+					</div>
+				</j:if>
+			</j:while>
+		</div>
+	</div>
+</j:if>
+
+</j:jelly>

@@ -5,10 +5,10 @@ var iframe = document.getElementById( 'catalog_frame' ),
 	$iframe = $j( iframe ),
 	iframeHeight,
 	menuIndexMap = {
-		'facilities' : 0,
-		'finance'    : 1,
-		'hr'         : 2,
-		'it'         : 3,
+		'it'         : 0,
+		'facilities' : 1,
+		'finance'    : 2,
+		'hr'         : 3,
 		'legal'      : 4,
 		'marketing'  : 5
 	},
@@ -74,8 +74,8 @@ var iframe = document.getElementById( 'catalog_frame' ),
 		firstLoadCatalog : function() {
 			// for when the page loads and we load the initial page config
 
-			var $menus = $j( '.page-service_catalog .main-content > .row' ),
-				catalog = ( typeof brandedCatalog !== 'undefined' && menuIndexMap[ brandedCatalog ] ) ? brandedCatalog : 'facilities', // determined in the catalog-select dynamic block
+			var $menus = $j( '.page-requestsomething .main-content > .row' ),
+				catalog = ( typeof brandedCatalog !== 'undefined' && menuIndexMap[ brandedCatalog ] ) ? brandedCatalog : 'it', // determined in the catalog-select dynamic block
 				$catalogMenu = $j( $menus[ menuIndexMap[ catalog ] ] );
 
 			$menus.hide();
@@ -89,7 +89,7 @@ var iframe = document.getElementById( 'catalog_frame' ),
 		},
 
 		loadCatalog : function( ev ) {
-			var $menus = $j( '.page-service_catalog .main-content > .row' ),
+			var $menus = $j( '.page-requestsomething .main-content > .row' ),
 				$dropdownButton = this.$el.parent().find( '.branded-catalog-dropdown-button' ),
 				$dropdownButtonText = this.$el.parent().find( '.branded-catalog-dropdown-button-text' ),
 				$target = this.$el.find( ev.currentTarget ),
