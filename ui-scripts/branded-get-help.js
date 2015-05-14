@@ -27,8 +27,6 @@ var selectViewCore = {
 
 			$menus.hide();
 			$departmentMenu.show();
-
-			$iframe[ 0 ].src = $departmentMenu.find( 'a' ).first().attr( 'href' );
 		},
 
 		loadDepartment : function( ev ) {

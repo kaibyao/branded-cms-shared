@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+<h1 class="page-title">
+	${current_page.getTitle();}
+</h1>
+
+<div id="${jvar_name}" class="site page-${current_page.getURLSuffix();} branded-3col-3-6-3">
+	<div class="header-container">
+		<div class="container">
+			<div class="row">
+				<div class="header-content col-xs-12">
+					<div id="dropzone0" dropzone="true"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="main-container">
+		<div class="container">
+			<div class="row">
+				<div class="main-content col-xs-12 col-md-9">
+					<div class="row">
+						<div class="main-content-top col-xs-12">
+							<div id="dropzone10" dropzone="true"></div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="nav-content col-xs-12 col-md-4">
+							<div id="dropzone5" dropzone="true"></div>
+						</div>
+						<div class="main-content-body col-xs-12 col-md-8">
+							<div id="dropzone25" dropzone="true"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="secondary-content col-xs-12 col-md-3">
+					<div id="dropzone15" dropzone="true"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer-container">
+		<div class="container">
+			<div class="row">
+				<div class="footer-content col-xs-12">
+					<div id="dropzone20" dropzone="true"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<g:call function="branded_cms_admin_nav" />
+<g:call function="branded_cms_scripts" />
+
+</j:jelly>

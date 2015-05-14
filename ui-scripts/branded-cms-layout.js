@@ -139,7 +139,7 @@
 					iframeHeight = $iframe.css( 'height' );
 
 				if ( iframeHeight !== iframeBodyHeight ) {
-					$iframe.css( 'height', ( parseInt( iframeBodyHeight ) + 80 ) + 'px' ); // adding height padding to offset hover tooltips inside iframe getting cut off
+					$iframe.css( 'height', ( parseInt( iframeBodyHeight ) + 120 ) + 'px' ); // adding height padding to offset hover tooltips inside iframe getting cut off
 				}
 			}
 		};

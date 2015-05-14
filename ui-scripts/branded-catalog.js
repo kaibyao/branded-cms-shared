@@ -3,7 +3,6 @@ define( [ 'jquery', 'underscore', 'backbone' ], function( $j, _, Backbone ) {
 
 var iframe = document.getElementById( 'catalog_frame' ),
 	$iframe = $j( iframe ),
-	iframeHeight,
 	menuIndexMap = {
 		'it'         : 0,
 		'facilities' : 1,
@@ -13,41 +12,18 @@ var iframe = document.getElementById( 'catalog_frame' ),
 		'marketing'  : 5
 	},
 
-	resizeIframe = function() {
-		var $iframeDoc = $j( iframe.contentDocument ),
-			$iframeBody = $iframeDoc.find( 'body' );
-
-		iframeHeight = $iframeBody.css( 'height' );
-		$iframe.css( 'height', iframeHeight );
-	},
-
-	checkResize = function() {
-		var $iframeDoc = $j( iframe.contentDocument ),
-			$iframeBody = $iframeDoc.find( 'body' ),
-			currentHeight = $iframeBody.css( 'height' );
-
-		if ( iframeHeight !== currentHeight ) {
-			resizeIframe();
-		}
-	},
-
 	styleIframe = function() {
 		var $iframeDoc = $j( iframe.contentDocument );
 
 		// add overriding styles to iframe
 		$iframeDoc.find( 'head' ).append( '<link rel="stylesheet" type="text/css" href="/d7fafb024da0710062c55dc1f2a64ee3.cssdbx" />' );
-
-		setInterval( checkResize, 500 );
 	},
 
 	updateLayout = function() {
 		var $iframeDoc = $j( iframe.contentDocument ),
 			$iframeBody = $iframeDoc.find( 'body' );
 
-		iframeHeight = $iframeBody.css( 'height' );
 
-		// resize iframe
-		resizeIframe();
 	},
 
 	selectViewCore = {
@@ -63,15 +39,10 @@ var iframe = document.getElementById( 'catalog_frame' ),
 		},
 
 		setupIframePage : function() {
-			setTimeout( function() {
-				styleIframe();
-				updateLayout();
-			}, 800 );
-
-			setInterval( checkResize, 500 );
+			setTimeout( styleIframe, 800 );
 		},
 
-		firstLoadCatalog : function() {
+		firstLoadCatalogMenu : function() {
 			// for when the page loads and we load the initial page config
 
 			var $menus = $j( '.page-requestsomething .main-content > .row' ),
@@ -84,8 +55,6 @@ var iframe = document.getElementById( 'catalog_frame' ),
 			if ( !$catalogMenu.find( 'a' ).first().attr( 'href' ) ) {
 				console.log( $catalogMenu );
 			}
-
-			this.redirectIframe( $catalogMenu );
 		},
 
 		loadCatalog : function( ev ) {
@@ -116,9 +85,7 @@ var iframe = document.getElementById( 'catalog_frame' ),
 	selectView = new ( Backbone.View.extend( selectViewCore ) )();
 
 $j( document ).ready( function() {
-	selectView.firstLoadCatalog();
-
-	$j( '.main-content .row .cms_menu_section_blocks .cms_menu_section_blocks_title a' ).on( 'click', selectView.setupIframePage );
+	selectView.firstLoadCatalogMenu();
 
 	$iframe.on( 'load', selectView.setupIframePage );
 } );
